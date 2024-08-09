@@ -156,6 +156,6 @@ Puts the script in an infinite loop where it simply sleeps for 10 seconds repeat
 To use this script, open your terminal, and run this command:
 
 ```
-ssh -v -R 8080:localhost:3000 server@tunnelprime.online
+ssh -R 8080:localhost:[local port] server@tunnelprime.online
 ```
 
